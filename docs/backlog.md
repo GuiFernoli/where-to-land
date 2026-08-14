@@ -7,11 +7,9 @@
 
 ## Estado atual
 
-- **Task 1.2 (formatCAD) — CONCLUÍDA** via PR #1 (mergeado, branch deletada).
-  Ciclo TDD completo: Red → Green → Refactor.
+- **Task 1.2 (formatCAD) — CONCLUÍDA.** Ciclo TDD completo: Red → Green → Refactor.
 - **Próxima: Task 1.3** (purchasing power — cálculo central + ranking), em nova
-  feature branch.
-- Fluxo de trabalho: feature branch + Pull Request por task (adotado na 1.2).
+  feature branch + Pull Request (fluxo de trabalho padrão daqui em diante).
 
 ## Itens v2 / roadmap
 

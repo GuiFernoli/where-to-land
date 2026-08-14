@@ -134,8 +134,7 @@ describe("formatCAD", () => {
 - [x] Rodar o teste e ver **falhar** (função não existe).
 - [x] Implementar `formatCAD` pra passar (dica: `Intl.NumberFormat` com
       locale `en-CA`).
-- [x] Rodar e ver verde. Commit: `feat: add CAD currency formatter`. —
-      *Entregue via PR #1 (fluxo feature branch + PR adotado a partir desta task).*
+- [x] Rodar e ver verde. Commit: `feat: add CAD currency formatter`.
 
 ### Task 1.3 — Cálculo de poder de compra
 
