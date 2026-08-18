@@ -7,12 +7,19 @@
 
 ## Estado atual
 
-- **Task 1.2 (formatCAD) — CONCLUÍDA.** Ciclo TDD completo: Red → Green → Refactor.
-- **Próxima: Task 1.3** (purchasing power — cálculo central + ranking), em nova
-  feature branch + Pull Request (fluxo de trabalho padrão daqui em diante).
+- **Task 1.3 (purchasing power) — CONCLUÍDA via PR #1** (mergeado, branch
+  deletada). TDD completo; o teste de imutabilidade pegou mutação real do `sort`.
+- **Próxima: Task 1.4** (gerador de deep-link de vagas — `lib/jobsLink.ts`,
+  `URL` + `URLSearchParams`), em nova feature branch + PR.
+- Decisão de domínio (1.3): `salaryByCity` é salário ANUAL bruto em CAD;
+  `purchasingPower` divide por 12. Aproximação de imposto adiada (spec §6
+  permite) — item na seção v2 abaixo.
 
 ## Itens v2 / roadmap
 
+- **Estimativa de salário líquido** — v1 usa salário bruto ÷ 12 (documentado
+  como aproximação); v2 pode aplicar aproximação de imposto por província
+  (spec §6 prevê o refino).
 - **i18n fr-CA** — formato de moeda francês (`3 500,00 $`) + UI bilíngue.
   Decisão consciente de manter `en-CA` fixo no v1 (spec §11 adia i18n).
   Citar como roadmap no README (Task 3.2) — mostra consciência do mercado

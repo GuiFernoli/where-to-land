@@ -145,12 +145,14 @@ describe("formatCAD", () => {
 `purchasingPower(city: City, role: Role): number`,
 `rankCities(cities: City[], role: Role): City[]`
 
-- [ ] **Teste (alvo):** cobre soma de custos, poder de compra
+- [x] **Teste (alvo):** cobre soma de custos, poder de compra
       (salário mensal − custo) e ordenação decrescente, com números concretos.
-- [ ] Rodar e ver falhar.
-- [ ] Implementar as três funções. Conceito: função pura, imutabilidade
+- [x] Rodar e ver falhar.
+- [x] Implementar as três funções. Conceito: função pura, imutabilidade
       (`rankCities` não muta o array de entrada — usa cópia antes de ordenar).
-- [ ] Verde. Commit: `feat: add purchasing power calculation and ranking`.
+- [x] Verde. Commit: `feat: add purchasing power calculation and ranking`. —
+      *Entregue via PR #1; o teste de imutabilidade flagrou mutação real do
+      `sort` durante o desenvolvimento.*
 
 ### Task 1.4 — Gerador de deep-link de vagas
 
